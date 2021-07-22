@@ -53,4 +53,7 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+  post '/paytm_initiate_transaction', to: 'paytm#paytm_initiate_transaction'
+  post '/paytm_verify_transaction', to: 'paytm#paytm_verify_transaction'
 end
