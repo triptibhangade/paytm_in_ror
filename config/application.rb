@@ -22,5 +22,6 @@ module PaytmInRor
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+    config.paytm = YAML::load_file("#{Rails.root}/config/paytm.yml")[Rails.env]
   end
 end
