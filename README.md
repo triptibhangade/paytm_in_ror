@@ -1,4 +1,4 @@
-Postman raw for Initiate Transaction API
+Postman input raw for Initiate Transaction API
 ----------------------------------------
 {
     "amount": "780.00",
@@ -6,7 +6,7 @@ Postman raw for Initiate Transaction API
     "channels": ["VISA"]
 }
 
-Postman raw for Paytm Verify Transaction API
+Postman input raw for Paytm Verify Transaction API
 ---------------------------------------------
 {
     "paytm_response":
